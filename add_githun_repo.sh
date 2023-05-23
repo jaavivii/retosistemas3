@@ -12,6 +12,6 @@ git add .
 
 git commit -m "Subida automatica de examen"
 
-git remote add origin "https://github.com/jaavivii/retosistemas.git"
+git remote add origin git@github.com:jaavivii/retosistemas.git
 
 git push -u origin master
