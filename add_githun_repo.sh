@@ -7,6 +7,10 @@ git config --global credential.helper cache
 # Por ejemplo, 3600 segundos (1 hora)
 git config --global credential.helper 'cache --timeout=3600'
 
+# Establece el token de acceso personal como credencial
+git config --global credential.helper 'store --file ~/.git-credentials'
+echo "https://github.com/usuario/retosistemas3.git\nusername=jaavivii\ntoken=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" > ~/.git-credentials
+
 # Cambia al directorio de tu repositorio
 cd /home/almi/Escritorio/examen
 
