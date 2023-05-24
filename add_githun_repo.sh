@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Cambia al directorio de tu repositorio
-cd /ruta/al/repositorio
+cd /home/almi/Escritorio/examen
 
 # Realiza el commit con un mensaje descriptivo
 git add .
