@@ -8,5 +8,5 @@ git add .
 git commit -m "Commit automático al iniciar sesión"
 
 # Realiza el push al repositorio remoto
-git push origin main
+git push -u origin main
 
