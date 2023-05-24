@@ -1,17 +1,12 @@
 #!/bin/bash
 
-GITHUB_USERNAME="jaavivii"
-REPO_NAME="$retosistemas2"
-FOLDER_PATH="/home/almi/Escritorio/examen"
+# Cambia al directorio de tu repositorio
+cd /ruta/al/repositorio
 
-cd "$FOLDER_PATH"
-
-git init
-
+# Realiza el commit con un mensaje descriptivo
 git add .
+git commit -m "Commit automático al iniciar sesión"
 
-git commit -m "Subida automatica de examen"
+# Realiza el push al repositorio remoto
+git push origin main
 
-git remote add origin git@github.com:jaavivii/retosistemas2.git
-
-git push -u origin master
