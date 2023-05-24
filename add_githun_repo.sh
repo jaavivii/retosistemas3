@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Configura el almacenamiento en caché de las credenciales
+git config --global credential.helper cache
+
+# Establece un tiempo de almacenamiento en caché para las credenciales (en segundos)
+# Por ejemplo, 3600 segundos (1 hora)
+git config --global credential.helper 'cache --timeout=3600'
+
 # Cambia al directorio de tu repositorio
 cd /home/almi/Escritorio/examen
 
